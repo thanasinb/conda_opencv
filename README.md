@@ -1,6 +1,9 @@
 # Installing OpenCV through Anaconda 
-1. Change conda channels to conda-forge
-2. `conda install opencv`
+```
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+conda install opencv
+```
 
 # Continue
 https://anaconda.org/conda-forge/opencv <br>
